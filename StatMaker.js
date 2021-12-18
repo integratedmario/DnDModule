@@ -62,6 +62,5 @@ function charMaker(name, arr){
     return Fighter
 }
 
-var name = window.prompt("Name your character.")
-const char = charMaker(name, arrLabeler(undefined, statMaker(60, 20, 5)));
+const char = charMaker("James the Guy", arrLabeler(undefined, statMaker(60, 20, 5)));
 console.log(char);
